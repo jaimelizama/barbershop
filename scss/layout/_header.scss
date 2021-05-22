@@ -1,0 +1,15 @@
+.navbar-bgcolor {
+  background-color: $app-color-tertiary1;
+  height: 96px;
+
+  .navbar-fontcolor {
+    color: $app-color-primary1;
+    &:hover {
+      color: $app-color-secondary1;
+    }
+
+    .img-logo {
+      height: 50px;
+    }
+  }
+}

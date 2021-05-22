@@ -1,0 +1,52 @@
+#banner {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  text-align: center;
+
+  .hero {
+    height: 100%;
+    width: 100%;
+    background: url(/barbershop/assets/images/post-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 90%;
+
+    h1 {
+      font-family: $app-ff-tittle;
+      font-style: $app-fs-italic;
+      color: $app-color-primary1;
+      font-size: $app-size-xx-large;
+    }
+  }
+}
+
+.double-arrow {
+  color: $app-color-primary1;
+  cursor: pointer;
+  position: absolute;
+  bottom: 70px;
+}
+
+.post-date {
+  font-family: $app-ff-tittle;
+  font-weight: $app-fw-regular;
+  color: $app-color-tertiary2;
+  font-size: $app-size-large;
+  opacity: 80%;
+}
+
+.post-text {
+  font-family: $app-ff-text;
+  color: $app-color-tertiary2;
+  font-size: $app-size-medium;
+  font-weight: $app-fw-light;
+  line-height: 40px;
+}
+
+.line {
+  background-color: $app-color-primary2;
+  height: 1px;
+}

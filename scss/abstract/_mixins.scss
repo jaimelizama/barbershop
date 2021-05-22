@@ -1,0 +1,8 @@
+@mixin background-section {
+  background: $app-color-primary1;
+}
+
+#post,
+#author {
+  @include background-section;
+}

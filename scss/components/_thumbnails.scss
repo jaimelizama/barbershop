@@ -1,0 +1,10 @@
+.thumbnail {
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+  cursor: pointer;
+  @media screen and (max-width: 640px) {
+    width: 133px;
+    height: 133px;
+  }
+}

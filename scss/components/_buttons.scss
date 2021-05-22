@@ -1,0 +1,22 @@
+// Buttons
+.small-button,
+.medium-button {
+  background-color: $app-color-tertiary3;
+  border-radius: 3em;
+  text-align: center;
+  padding: 10px 20px;
+  color: $app-color-primary1;
+  font: $app-ff-text;
+  font-size: $app-size-medium;
+  font-weight: $app-fw-regular;
+  border: 0;
+  cursor: pointer;
+  border-radius: 100px;
+  &:hover {
+    background-color: $app-color-primary3;
+  }
+  &:focus {
+    background-color: $app-color-tertiary3;
+    border: 3px solid $app-color-primary3;
+  }
+}

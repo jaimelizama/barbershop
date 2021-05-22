@@ -1,0 +1,30 @@
+// bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// abstracts
+@import "abstract/variables";
+@import "abstract/mixins";
+// base
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+@import "base/reset";
+
+// components
+@import "components/buttons";
+@import "components/inputs";
+@import "components/thumbnails";
+@import "components/paginations";
+
+// layout
+@import "layout/header";
+@import "layout/main-section";
+@import "layout/author";
+@import "layout/footer";
+// pages
+@import "pages/contact";
+@import "pages/home";
+// themes
+@import "themes/admin";
+@import "themes/theme";

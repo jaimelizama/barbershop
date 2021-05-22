@@ -1,0 +1,29 @@
+.copywriter-name {
+  font-family: $app-ff-tittle;
+  font-weight: $app-fw-bold;
+  font-style: $app-fs-italic;
+  font-size: $app-size-x-large;
+}
+
+.copywriter-name__description {
+  line-height: 35px;
+  font-family: $app-ff-text;
+  font-weight: $app-fw-regular;
+  font-size: $app-size-medium;
+  color: $app-color-tertiary3;
+}
+
+.copywriter-name__description--contact {
+  line-height: 10px;
+  font-weight: $app-fw-light;
+  font-size: $app-size-large;
+  color: $app-color-secondary1;
+  cursor: pointer;
+  &:hover {
+    color: $app-color-tertiary2;
+  }
+
+  &:active {
+    color: $app-color-primary2;
+  }
+}
